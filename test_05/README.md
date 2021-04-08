@@ -37,7 +37,7 @@ The output for 2) should look like a plot with time on the X-axis, and VIS score
 The output for 3) should be a function which takes only FHIR resources as inputs, and returns the following
 ```
 {
-    "value":  <the max VIS score>,
+    "value":  <the max VIS score in first 24hr after CICU admission>,
     "start_datetime":  <when the patient had the max VIS score (start of interval)>,
     "duration":  <total number of minutes the patient was at the maximum VIS score>,
     "classification_group":  <number 1,2,3,4,5 based on VIS paper Table 1>
@@ -69,6 +69,8 @@ The output after the raw sample note is fed through the Natural Language Process
 | C0086287 | Female                 |
 | C0184666 | Hospital Admission     |
 | C0586003 | Hospital Discharge     |
+| C5240707 | ICU admission date     |
+| C5240710 | ICU discharge date     |
 | C2243117 | Echocardiogram         |
 
 
@@ -79,11 +81,11 @@ This is a list of [FHIR MedicationAdministration resources](https://www.hl7.org/
 This is a list of [FHIR Medication resources](https://www.hl7.org/fhir/medication.html) for the sample patient.
 
 ## procedure_log.csv
-This is an extract of inpatient procedures, including both surgical procedures and other inpatient procedures.
+This is an extract of historical inpatient procedures, including both surgical procedures and other inpatient procedures.
 
 ```
 mrn:  The patient's Medical Record Number
-procedure_id: A unique identifier for a single procedure
+case_id: A unique identifier for a single procedure
 practitioner: Who performed the procedure
 primary_procedure_name: The name of the procedure that was performed
 primary_procedure_code: A SNOMED-CT code for the procedure
