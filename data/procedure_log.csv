@@ -1,0 +1,3 @@
+mrn,case_id,primary_surgeon,primary_procedure_name,primary_procedure_code,procedure_date,procedure_time
+5678,1100,John Watson,Echocardiogram,40701008,2020-2-2,13:00
+5678,1109,James Moriarty,Closure of atrial septal defect,112811009,2021-2-5,8:30

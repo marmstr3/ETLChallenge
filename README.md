@@ -3,7 +3,7 @@ These are the work tests for interviews at Carta. To get started, just click the
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/carta-healthcare/carta-work-tests)
 
-# Completeing Tests
+# Completing Tests
 Your contact at Carta will tell you which test numbers you've been tasked with. Each test has a 
 README.md which describes everything you need to do for the test. 
 

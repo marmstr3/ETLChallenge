@@ -1,0 +1,246 @@
+[
+    {
+        "id": "med1_base",
+        "resourceType": "Medication",
+        "code": {
+            "coding": [
+                {
+                    "code": "373441005",
+                    "system": "http://snomed.info/sct",
+                    "display": "Milrinone"
+                }
+            ],
+            "text": "milrinone"
+        }
+    },
+    {
+        "id": "med1_package",
+        "resourceType": "Medication",
+        "code": {
+            "coding": [
+                {
+                    "code": "373441005",
+                    "system": "http://snomed.info/sct",
+                    "display": "Milrinone"
+                }
+            ],
+            "text": "milrinone"
+        },
+        "form": {
+            "coding": [
+                {
+                    "code": "421410002",
+                    "system": "http://snomed.info/sct",
+                    "display": "Intravenous solution"
+                }
+            ],
+            "text": "IV"
+        },
+        "amount": {},
+        "ingredient": [
+            {
+                "itemReference": {
+                    "type": "Medication",
+                    "reference": "med1_base"
+                },
+                "isActive": true,
+                "strength": null
+            }
+        ]
+    },
+    {
+        "id": "med2_base",
+        "resourceType": "Medication",
+        "code": {
+            "coding": [
+                {
+                    "code": "387145002",
+                    "system": "http://snomed.info/sct",
+                    "display": "Dobutamine"
+                }
+            ],
+            "text": "milrinone"
+        }
+    },
+    {
+        "id": "med2_package",
+        "resourceType": "Medication",
+        "form": {
+            "coding": [
+                {
+                    "code": "421410002",
+                    "system": "http://snomed.info/sct",
+                    "display": "Intravenous solution"
+                }
+            ],
+            "text": "IV"
+        },
+        "amount": {},
+        "ingredient": [
+            {
+                "itemReference": {
+                    "type": "Medication",
+                    "reference": "med2_base"
+                },
+                "isActive": true,
+                "strength": null
+            }
+        ]
+    },
+    {
+        "id": "med3_base",
+        "resourceType": "Medication",
+        "code": {
+            "coding": [
+                {
+                    "code": "412383006",
+                    "system": "http://snomed.info/sct",
+                    "display": "Dopamine"
+                }
+            ],
+            "text": "dopa"
+        }
+    },
+    {
+        "id": "med3_package",
+        "resourceType": "Medication",
+        "form": {
+            "coding": [
+                {
+                    "code": "421410002",
+                    "system": "http://snomed.info/sct",
+                    "display": "Intravenous solution"
+                }
+            ],
+            "text": "IV"
+        },
+        "amount": {},
+        "ingredient": [
+            {
+                "itemReference": {
+                    "type": "Medication",
+                    "reference": "med3_base"
+                },
+                "isActive": true,
+                "strength": null
+            }
+        ]
+    },
+    {
+        "id": "med4_base",
+        "resourceType": "Medication",
+        "code": {
+            "coding": [
+                {
+                    "code": "77671006",
+                    "system": "http://snomed.info/sct",
+                    "display": "Vasopressin"
+                }
+            ],
+            "text": "Vasopressin"
+        }
+    },
+    {
+        "id": "med4_package",
+        "resourceType": "Medication",
+        "form": {
+            "coding": [
+                {
+                    "code": "421410002",
+                    "system": "http://snomed.info/sct",
+                    "display": "Intravenous solution"
+                }
+            ],
+            "text": "IV"
+        },
+        "amount": {},
+        "ingredient": [
+            {
+                "itemReference": {
+                    "type": "Medication",
+                    "reference": "med4_base"
+                },
+                "isActive": true,
+                "strength": null
+            }
+        ]
+    },
+    {
+        "id": "med5_base",
+        "resourceType": "Medication",
+        "code": {
+            "coding": [
+                {
+                    "code": "387362001",
+                    "system": "http://snomed.info/sct",
+                    "display": "Epinephrine"
+                }
+            ],
+            "text": "Epinephrine"
+        }
+    },
+    {
+        "id": "med5_package",
+        "resourceType": "Medication",
+        "form": {
+            "coding": [
+                {
+                    "code": "421410002",
+                    "system": "http://snomed.info/sct",
+                    "display": "Intravenous solution"
+                }
+            ],
+            "text": "IV"
+        },
+        "amount": {},
+        "ingredient": [
+            {
+                "itemReference": {
+                    "type": "Medication",
+                    "reference": "med5_base"
+                },
+                "isActive": true,
+                "strength": null
+            }
+        ]
+    },
+    {
+        "id": "med6_base",
+        "resourceType": "Medication",
+        "code": {
+            "coding": [
+                {
+                    "code": "45555007",
+                    "system": "http://snomed.info/sct",
+                    "display": "Norepinephrine"
+                }
+            ],
+            "text": "Vasopressin"
+        }
+    },
+    {
+        "id": "med6_package",
+        "resourceType": "Medication",
+        "form": {
+            "coding": [
+                {
+                    "code": "421410002",
+                    "system": "http://snomed.info/sct",
+                    "display": "Intravenous solution"
+                }
+            ],
+            "text": "IV"
+        },
+        "amount": {},
+        "ingredient": [
+            {
+                "itemReference": {
+                    "type": "Medication",
+                    "reference": "med6_base"
+                },
+                "isActive": true,
+                "strength": null
+            }
+        ]
+    }
+]
