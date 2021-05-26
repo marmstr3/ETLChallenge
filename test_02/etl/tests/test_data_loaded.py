@@ -32,5 +32,5 @@ class TestDataLoading(object):
                 names.add((name["given"], name["family"]))
         
         assert ("John", "Doe") in names
-        assert ("Joane", "Lee") in names
+        # add additional assertions (optional)
 
