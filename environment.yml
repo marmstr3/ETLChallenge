@@ -22,3 +22,4 @@ dependencies:
   - werkzeug=0.16.1
   - jupyter
   - ipython
+  - openpyxl
